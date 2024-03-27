@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 def open():
-    dir = '../challengue-python'
+    dir = '../python-challenge'
     excel_file = 'Datos.xlsx' 
     csv_file = 'lut_paises.csv'
     datos = os.path.join(dir, excel_file) 
@@ -129,7 +129,7 @@ def create_df():
 
 
 def export_file(df):
-    df.to_excel('Datos - homologados.xlsx', index=False)
+    df.to_excel('Datos - homologados_t.xlsx', index=False)
 
 
 def main():
