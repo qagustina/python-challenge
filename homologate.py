@@ -129,7 +129,7 @@ def create_df():
 
 
 def export_file(df):
-    df.to_excel('Datos - homologados_t.xlsx', index=False)
+    df.to_excel('Datos - homologados.xlsx', index=False)
 
 
 def main():
